@@ -2,9 +2,17 @@ var csspec = require('csspec');
 
 module.exports = function(grunt) {
   grunt.registerMultiTask('csspec', 'Preprocess CSSpec to SASS', function() {
-    var files = grunt.config('csspec').dev.files;
+    var files = grunt.config('csspec').dev.files,
+        sourcePath, 
+        destPath;
+
     for(dest in files) {
-      csspec.preprocessFile(files[dest], dest);
+      destPath   = process.cwd() + '/' + dest;
+      sourcePath = process.cwd() + '/' + files[dest];
+      csspec.preprocessFile(destPath, destPath);
     }
+
   });
 };
+
+
