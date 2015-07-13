@@ -1,0 +1,33 @@
+{
+  "name": "grunt-csspec",
+  "version": "0.1.0",
+  "description": "Grunt adapter for CSSpec test compilation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjkula/grunt-csspec.git"
+  },
+  "keywords": [
+    "grunt",
+    "css",
+    "sass",
+    "scss",
+    "testing",
+    "tdd",
+    "style",
+    "unit",
+    "integration"
+  ],
+  "author": "Christopher Kula <cjkula@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "csspec": "^0.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/cjkula/grunt-csspec/issues"
+  },
+  "homepage": "https://github.com/cjkula/grunt-csspec#readme"
+}
