@@ -1,8 +1,8 @@
 {
   "name": "grunt-csspec",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Grunt adapter for CSSpec test compilation",
-  "main": "index.js",
+  "files": "tasks",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
