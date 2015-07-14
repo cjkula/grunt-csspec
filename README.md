@@ -5,6 +5,8 @@ Grunt adapter for CSSpec test compilation.
 
     npm install grunt-csspec --save-dev
 
+For CSSpec see: https://www.npmjs.com/package/csspec and https://github.com/cjkula/csspec
+
 Sample Grunt configuration:
 
     grunt.initConfig({
@@ -50,4 +52,4 @@ Sample Grunt configuration:
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-csspec');
 
-Note that SASS compilation is not currently bundled into the preprocessor and so needs to be run after the CSSpec preprocessing.
+Note that SASS compilation is not currently bundled into the preprocessor and so needs to be run after the csspec task to generate the test stylesheet.
