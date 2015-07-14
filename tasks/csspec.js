@@ -7,9 +7,9 @@ module.exports = function(grunt) {
         destPath;
 
     for(dest in files) {
-      destPath   = process.cwd() + '/' + dest;
       sourcePath = process.cwd() + '/' + files[dest];
-      csspec.preprocessFile(destPath, destPath);
+      destPath   = process.cwd() + '/' + dest;
+      csspec.preprocessFile(sourcePath, destPath);
     }
 
   });
